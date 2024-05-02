@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, Georgia, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.recipe-list {
+    font-size: 18px;
+}

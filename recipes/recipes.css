@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, Georgia, sans-serif;
+}
+
+.title {
+    text-align: center;
+}
+
+h2 {
+    background-color: rgb(247, 162, 4);
+}
