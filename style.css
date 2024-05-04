@@ -12,4 +12,18 @@ h1 {
 
 .recipe-list {
     font-size: 18px;
+    border: 1px solid rgb(128, 133, 57);
+    padding: 8px;
+    display: inline-block;
+    background-color: rgb(242, 239, 229);;
+}
+
+.recipe-list a {
+    text-decoration: none;
+    color: rgb(121, 87, 24)
+}
+
+.recipe-list li {
+    padding: 20px 10px;
+    list-style-type: none;
 }

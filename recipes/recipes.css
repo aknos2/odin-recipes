@@ -1,15 +1,49 @@
-* {
+html {
     box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
 }
 
 body {
     font-family: Tahoma, Georgia, sans-serif;
+    background-color: rgb(243, 231, 209);
+}
+
+.top-main {
+    background-color: white;
 }
 
 .title {
     text-align: center;
+    padding-top: 10px;
 }
 
 h2 {
     background-color: rgb(247, 162, 4);
+    padding-left: 5px;
+    margin: 0 0 5px 0;
+}
+
+.food-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.ramen-image {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+li, p {
+    padding: 8px 0 12px 5px;
 }
